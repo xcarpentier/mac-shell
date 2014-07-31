@@ -1,11 +1,11 @@
 Warning: --trace-ascii overrides an earlier trace/verbose option
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0== Info: Adding handle: conn: 0x7fa240806600
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0== Info: Adding handle: conn: 0x7f9ba2805600
 == Info: Adding handle: send: 0
 == Info: Adding handle: recv: 0
 == Info: Curl_addHandleToPipeline: length: 1
-== Info: - Conn 0 (0x7fa240806600) send_pipe: 1, recv_pipe: 0
+== Info: - Conn 0 (0x7f9ba2805600) send_pipe: 1, recv_pipe: 0
 == Info: About to connect() to kiwiparty.fr port 80 (#0)
 == Info:   Trying 91.121.55.106...
 == Info: Connected to kiwiparty.fr (91.121.55.106) port 80 (#0)
@@ -26,7 +26,7 @@ Warning: --trace-ascii overrides an earlier trace/verbose option
 <= Recv header, 17 bytes (0x11)
 0000: HTTP/1.1 200 OK
 <= Recv header, 37 bytes (0x25)
-0000: Date: Thu, 24 Apr 2014 13:45:02 GMT
+0000: Date: Thu, 24 Apr 2014 21:14:02 GMT
 == Info: Server Apache/2.2.16 (Debian) is not blacklisted
 <= Recv header, 32 bytes (0x20)
 0000: Server: Apache/2.2.16 (Debian)
@@ -62,7 +62,7 @@ Warning: --trace-ascii overrides an earlier trace/verbose option
 0400: -09.min.css">.<link href='http://fonts.googleapis.com/css?family
 0440: =Roboto:400,700' rel='stylesheet' type='text/css'>..</head>..<bo
 0480: dy>...<header role="banner">..<h1><a href="/"><img 
- 37  3426   36  1203  100    93   2547    196  0:00:01 --:--:--  0:00:01  2543<= Recv data, 1440 bytes (0x5a0)
+ 37  3426   36  1203  100    93    649     50  0:00:05  0:00:01  0:00:04   648<= Recv data, 1440 bytes (0x5a0)
 0000: src="/xmedia/kiwiparty/2014/logo.png" alt="KiwiParty 2014"></a><
 0040: /h1>..<div id="cnv"></div>..<div class="skip-links">...<a href="
 0080: #orateurs">Les orateurs </a>...<a href="#program">Le programme <
@@ -98,7 +98,7 @@ Warning: --trace-ascii overrides an earlier trace/verbose option
 0200: //ssl' : 'http://www') + '.google-analytics.com/ga.js';.var s = 
 0240: document.getElementsByTagName('script')[0]; s.parentNode.insertB
 0280: efore(ga, s);.})();..</script>...</body>..</html>.
-100  3426  100  3333  100    93   6989    195 --:--:-- --:--:-- --:--:--  6987
+100  3426  100  3333  100    93   1794     50  0:00:01  0:00:01 --:--:--  1793
 <!doctype html>
 <!--[if lte IE 6]> <html class="no-js ie6 ie67 ie678" lang="en"> <![endif]-->
 <!--[if lte IE 7]> <html class="no-js ie7 ie67 ie678" lang="en"> <![endif]-->
